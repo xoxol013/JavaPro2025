@@ -7,5 +7,10 @@ public class CelsiusFahrenheit {
         double fahrenheits = 44;
         double celsius = (fahrenheits - 32) * 5 / 9;
         System.out.println(fahrenheits + " fahrenheits = " + celsius + " celsius");
+
+        // Create converter celsius in fahrenheits
+        double celsiusTwo = 17;
+        double fahrenheitsTwo = (celsiusTwo * 9 / 5) + 32;
+        System.out.println(celsiusTwo + " celsius = " + fahrenheitsTwo + " fahrenheits");
     }
 }
