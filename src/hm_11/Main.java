@@ -1,6 +1,5 @@
 package hm_11;
 
-import java.nio.file.Path;
 import java.nio.file.Paths;
 
 public class Main {
