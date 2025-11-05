@@ -1,0 +1,12 @@
+package hm_16.Utils;
+
+import java.util.Random;
+
+public class RandomNumberGenerator {
+
+    // Generating random number within a range
+    public static int generateRandomNumber(int min, int max) {
+        Random random = new Random();
+        return random.nextInt(max - min + 1) + min;
+    }
+}
