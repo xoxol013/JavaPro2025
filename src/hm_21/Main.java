@@ -10,7 +10,6 @@ public class Main {
         utils.multiply(7,9);
         System.out.println("   Methods info   ");
 
-        //
         for (Method method : ArrayUtils.class.getDeclaredMethods()) {
 
             if (method.isAnnotationPresent(MethodInfo.class)) {
