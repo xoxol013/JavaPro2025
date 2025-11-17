@@ -1,5 +1,5 @@
 package hm_21;
-
+//
 public class ArrayUtils {
 
     @MethodInfo(
