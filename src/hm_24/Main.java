@@ -6,6 +6,7 @@ public class Main {
         Logger logger1 = Logger.getInstance();
         Logger logger2 = Logger.getInstance();
 
+        //
         logger1.log("First log");
         logger2.log("Another log from a different place");
 
