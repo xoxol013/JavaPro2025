@@ -20,6 +20,7 @@ public class Logger {
         logs.append(message).append("\n");
     }
 
+    //
     public void printLogs() {
         System.out.println("--- LOGS ---");
         System.out.println(logs.toString());
